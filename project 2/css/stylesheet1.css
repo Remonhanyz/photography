@@ -1,0 +1,201 @@
+:root {
+  --lobster: 'Lobster', cursive;
+  --d-white: #E1E2E1;
+  --w-dark: #263238;
+  --white: #ffffff;
+  --MM: #17A2B8;
+  --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+  --courgette: 'Courgette', cursive;
+}
+
+.s1 {
+  font-family: var(--courgette);
+}
+.shadow {
+  box-shadow: var(--shadow);
+}
+
+.pb-6 {
+  padding-bottom: 13rem;
+}
+
+
+@media (max-width: 480px) {
+  html {
+    font-size: 0.89rem;
+  }
+  .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    border-bottom: 1.5px solid var(--w-dark);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .blog-img {
+    min-width: 100%;
+  }
+}
+
+/* navbar main */
+
+.navbar {
+  border-bottom: 3px solid var(--MM);
+}
+
+.navbar-nav>li>a {
+  padding: 14px;
+}
+
+/* navbar website name*/
+
+.navbar-dark .navbar-brand {
+  color: var(--d-white);
+  font-family: var(--lobster);
+}
+
+/* navbar toggler */
+
+.navbar-toggler {
+  padding: 10px;
+}
+
+/* nav-bar dropdown menu*/
+
+.navbar-expand-sm .navbar-nav .dropdown-menu {
+  background-color: var(--w-dark);
+}
+
+.nav-item .dropdown-item {
+  color: var(--white);
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  background-color: var(--MM);
+  color: var(--white);
+}
+
+/* nav-bar items */
+
+.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link {
+  color: var(--white);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navbar-dark .navbar-nav>li>a:focus, .navbar-dark .navbar-nav>li>a:hover {
+  background-color: var(--MM);
+  color: var(--white);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  border-left: 2px solid var(--w-dark);
+  border-right: 2px solid var(--w-dark);
+  border-top: 1.5px solid var(--w-dark);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: var(--white);
+  margin: 0 1px;
+  padding: 13px;
+}
+
+/* page main body */
+
+html {
+  height: 100%;
+}
+
+body {
+  background: var(--white);
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 3.4rem;
+}
+
+.section4 {
+  background: var(--white) url('../images/ARL_7865.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section4-text, .section5-text {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--white);
+}
+
+.section4-text-bottom {
+  bottom: 10rem;
+}
+
+.section5 {
+  background: var(--white) url('../images/ARL_6317.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75%;
+}
+
+.section5-2 {
+  background: var(--white) url('../images/jeff-hopper-17306.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+}
+
+.img-thumbnail {
+  height: 18rem;
+}
+
+.min-height {
+  min-height: 100%;
+}
+
+.card-header {
+  background: var(--MM);
+  color: var(--white);
+}
+
+.page-body {
+  padding-bottom: 16rem;
+}
+
+.card, .navbar, .pagination {
+  box-shadow: var(--shadow);
+}
+
+.side-bar>p, h4 {
+  border-radius: 0.2rem;
+  color: #000;
+  font-family: 'Courgette', cursive;
+  padding: 0.6rem;
+}
+
+.side-bar {
+  border: rgba(48, 48, 48, 0.1) solid;
+  border-radius: 0.3rem;
+  border-width: 0.1rem;
+  box-shadow: var(--shadow);
+  color: #000;
+}
+
+.blog-img {
+  width: 50%;
+}
+
+.blog2-img {
+  width: 35%;
+}
+
+.articles-cards {
+  width: 13rem;
+  margin: 1rem;
+}
+
+.comment {
+  border-left: 4px solid var(--MM);
+  padding: 1rem;
+}
+
+.page-footer {
+  background: var(--w-dark);
+  border-bottom: 4px solid var(--MM);
+  color: var(--MM);
+  font-size: 1.3rem;
+  left: 0;
+}
